@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Assets/styles.css">
+    <title>Password Generator</title>
+</head>
+   <body>
+      <div class="password-container">
+         <h1>Password Generator</h1>
+         <div class="form-container">
+           <label for="password-length">Password Length:</label>
+           <input type="number" id="password-length" min="8" max="128" value="12">
+           <br>
+           <label for="include-uppercase">Include Uppercase:</label>
+           <input type="checkbox" id="include-uppercase" checked>
+           <br>
+           <label for="include-lowercase">Include Lowercase:</label>
+           <input type="checkbox" id="include-lowercase" checked>
+           <br>
+           <label for="include-numbers">Include Numbers:</label>
+           <input type="checkbox" id="include-numbers" checked>
+           <br>
+           <label for="include-special-characters">Include Special Characters:</label>
+           <input type="checkbox" id="include-special-characters" checked>
+           <br><br>
+           <button id="generate-button">Generate</button>
+         </div>
+         <br>
+         <div class="password-display-container">
+           <label for="password-display">Generated Password:</label>
+           <input type="text" id="password-display" disabled>
+           <br>
+           <button id="copy-button">Copy to Clipboard</button>
+         </div>
+       </div>
+<script src="Assets/password.js"></script>
+</body>
+</html>
