@@ -2,4 +2,4 @@
 JavaScript Challenge: Password Generator
 
 ## Deployed site
-<a href="">link text</a>.
+Deployed site <a href="https://inongoy.github.io/Password-Generator/">here</a>.
